@@ -3,7 +3,7 @@
 //  WhiteNavigationController_Example
 //
 //  Created by Zandor Smith on 30/03/2019.
-//  Copyright © 2019 CocoaPods. All rights reserved.
+//  Copyright © 2019 Zandor Smith. All rights reserved.
 //
 
 import UIKit

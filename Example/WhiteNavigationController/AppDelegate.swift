@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  WhiteNavigationController
+//  WhiteNavigationController_Example
 //
-//  Created by Zandor300 on 03/30/2019.
-//  Copyright (c) 2019 Zandor300. All rights reserved.
+//  Created by Zandor Smith on 03/30/2019.
+//  Copyright © 2019 Zandor Smith. All rights reserved.
 //
 
 import UIKit
