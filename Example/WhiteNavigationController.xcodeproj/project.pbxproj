@@ -15,6 +15,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8A7FB410C3E34E6ECF2D3811 /* Pods_WhiteNavigationController_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33293E245D5FE0191ECBBD58 /* Pods_WhiteNavigationController_Tests.framework */; };
 		BD2FAED85250FBD89EB91E13 /* Pods_WhiteNavigationController_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268B9A46560F825404F5FB8A /* Pods_WhiteNavigationController_Example.framework */; };
+		FCC61053225021480067825C /* ColorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC61052225021480067825C /* ColorTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C86135A8C139CD92A260E7E2 /* WhiteNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WhiteNavigationController.podspec; path = ../WhiteNavigationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D7616386FB92BDD63E1D44F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F1B0C7A629B64861E46C0A3C /* Pods-WhiteNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNavigationController_Tests.release.xcconfig"; path = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FCC61052225021480067825C /* ColorTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				FCC61052225021480067825C /* ColorTableViewCell.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -339,6 +342,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				FCC61053225021480067825C /* ColorTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
