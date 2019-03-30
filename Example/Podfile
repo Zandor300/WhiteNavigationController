@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WhiteNavigationController_Example' do
+  pod 'WhiteNavigationController', :path => '../'
+
+  target 'WhiteNavigationController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
