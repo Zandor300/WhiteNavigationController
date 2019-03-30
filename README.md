@@ -15,7 +15,7 @@ You could do the same thing by setting the `UINavigationBar` to white. That woul
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+To run the example project, run `pod try WhiteNavigationController` in your Terminal.
 
 ## Installation
 
