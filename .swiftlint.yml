@@ -1,0 +1,11 @@
+disabled_rules:
+  - line_length
+  - function_body_length
+  - large_tuple
+
+excluded:
+  - Example
+
+identifier_name:
+  excluded:
+    - id
