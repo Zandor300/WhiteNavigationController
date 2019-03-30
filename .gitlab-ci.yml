@@ -1,0 +1,59 @@
+stages:
+  - setup
+  - build
+  - lint
+  - docs
+  - deploy
+
+setup:
+  stage: setup
+  script:
+    - pod repo update
+  tags:
+    - xcode
+
+build:
+  stage: build
+  script:
+    - cd Example/
+    - pod install
+    - cd ../
+    - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/WhiteNavigationController.xcworkspace -scheme WhiteNavigationController-Example -sdk iphonesimulator12.1 ONLY_ACTIVE_ARCH=NO | xcpretty
+  tags:
+    - xcode
+
+cocoapods-lint:
+  stage: lint
+  script:
+    - pod lib lint
+  tags:
+    - xcode
+
+swiftlint:
+  stage: lint
+  script:
+    - swiftlint
+  tags:
+    - xcode
+
+jazzy-docs:
+  stage: docs
+  script:
+    - jazzy --podspec WhiteNavigationController.podspec --output docs
+  tags:
+    - xcode
+  artifacts:
+    paths:
+      - docs
+
+pages:
+  dependencies:
+    - jazzy-docs
+  stage: deploy
+  script:
+    - mv docs/ public/
+  tags:
+    - xcode
+  artifacts:
+    paths:
+      - public
