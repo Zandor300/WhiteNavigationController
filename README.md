@@ -9,7 +9,7 @@
 
 This pod will try to mimic the white navigation bars that Apple is adopting in their own apps.
 
-You could do the same thing by setting the `UINavigationBar` to white. That would however produce a less good looking blur when scrolling down. This pod will try to mimic the same thing but with a proper blur, like the stock `UINavigationBar` has.
+You could do the same thing by setting the `UINavigationBar` to white. That would however produce a less good looking blur when scrolling down. ([TestFlight](https://itunes.apple.com/us/app/testflight/id899247664) is a good example of this.) This pod will try to mimic the same thing but with a proper blur, like the stock `UINavigationBar` has.
 
 ## Example
 
