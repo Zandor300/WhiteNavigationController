@@ -9,9 +9,7 @@
 
 This pod will try to mimic the white navigation bars that Apple is adopting in their own apps.
 
-## GitLab
-
-The source of this pod is hosted on my personal GitLab server. This repository is mirrored to GitHub. If you want to contribute, you will have to do that on [my personal GitLab server](https://git.zsinfo.nl/Zandor300/WhiteNavigationController).
+You could do the same thing by setting the `UINavigationBar` to white. That would however produce a less good looking blur when scrolling down. This pod will try to mimic the same thing but with a proper blur, like the stock `UINavigationBar` has.
 
 ## Example
 
@@ -25,6 +23,18 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'WhiteNavigationController'
 ```
+
+## Usage
+
+* In your Storyboard, drag in a `UINavigationController` (if you don't have one already on which you want to apply this) and then go into the **Identity Inspector** while you have your `UINavigationController` selected.
+* Now, under **Custom Class** > **Class**, fill in `WhiteNavigationController` and check **Inherit Module From Target**.
+* Done! The navigation bars should now be white, while still blurring content behind it when scrolling down.
+
+## Contributing & Issues
+
+The source of this pod is hosted on my personal GitLab server. This repository is mirrored to GitHub. If you want to contribute, you will have to do that on [my personal GitLab server](https://git.zsinfo.nl/Zandor300/WhiteNavigationController).
+
+If you find issues with this pod, you can report those over at [my personal GitLab server](https://git.zsinfo.nl/Zandor300/WhiteNavigationController).
 
 ## Author
 
