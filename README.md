@@ -6,11 +6,15 @@
 [![License](https://img.shields.io/cocoapods/l/WhiteNavigationController.svg?style=flat)](https://cocoapods.org/pods/WhiteNavigationController)
 [![Platform](https://img.shields.io/cocoapods/p/WhiteNavigationController.svg?style=flat)](https://cocoapods.org/pods/WhiteNavigationController)
 
+This pod will try to mimic the white navigation bars that Apple is adopting in their own apps.
+
+## GitLab
+
+The source of this pod is hosted on my personal GitLab server. This repository is mirrored to GitHub. If you want to contribute, you will have to do that on [my personal GitLab server](https://git.zsinfo.nl/Zandor300/WhiteNavigationController).
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
 
 ## Installation
 
