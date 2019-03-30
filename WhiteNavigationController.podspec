@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WhiteNavigationController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WhiteNavigationController.'
+  s.summary          = 'A White UINavigationBar like in Apple\'s apps'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+This pod will try to mimic the white navigation bars that Apple is adopting in their own apps.
                        DESC
 
   s.homepage         = 'https://git.zsinfo.nl/Zandor300/WhiteNavigationController'
