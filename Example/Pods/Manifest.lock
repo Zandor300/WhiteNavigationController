@@ -1,0 +1,16 @@
+PODS:
+  - WhiteNavigationController (0.1.0)
+
+DEPENDENCIES:
+  - WhiteNavigationController (from `../`)
+
+EXTERNAL SOURCES:
+  WhiteNavigationController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WhiteNavigationController: 3dbb13e6d7ef9667ab5d51a3116af36c939f0c3d
+
+PODFILE CHECKSUM: f8b8123b7bb49dc1cd549f7a2f1d0c208795ac98
+
+COCOAPODS: 1.6.1

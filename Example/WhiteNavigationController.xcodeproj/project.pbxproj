@@ -31,7 +31,7 @@
 		268B9A46560F825404F5FB8A /* Pods_WhiteNavigationController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteNavigationController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B2413133396E2C451275613 /* Pods-WhiteNavigationController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNavigationController_Example.release.xcconfig"; path = "Target Support Files/Pods-WhiteNavigationController_Example/Pods-WhiteNavigationController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		33293E245D5FE0191ECBBD58 /* Pods_WhiteNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E891DACCF892AFB14F748DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4E891DACCF892AFB14F748DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* WhiteNavigationController_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WhiteNavigationController_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		709CC58F353851FC3990E3B4 /* Pods-WhiteNavigationController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNavigationController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A643D9C160FD05499D7340DD /* Pods-WhiteNavigationController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNavigationController_Example.debug.xcconfig"; path = "Target Support Files/Pods-WhiteNavigationController_Example/Pods-WhiteNavigationController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C86135A8C139CD92A260E7E2 /* WhiteNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WhiteNavigationController.podspec; path = ../WhiteNavigationController.podspec; sourceTree = "<group>"; };
-		D7616386FB92BDD63E1D44F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C86135A8C139CD92A260E7E2 /* WhiteNavigationController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WhiteNavigationController.podspec; path = ../WhiteNavigationController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D7616386FB92BDD63E1D44F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F1B0C7A629B64861E46C0A3C /* Pods-WhiteNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteNavigationController_Tests.release.xcconfig"; path = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				709CC58F353851FC3990E3B4 /* Pods-WhiteNavigationController_Tests.debug.xcconfig */,
 				F1B0C7A629B64861E46C0A3C /* Pods-WhiteNavigationController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -213,10 +212,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3M5P376P9C;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 3M5P376P9C;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -227,6 +228,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -482,7 +484,9 @@
 			baseConfigurationReference = A643D9C160FD05499D7340DD /* Pods-WhiteNavigationController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3M5P376P9C;
 				INFOPLIST_FILE = WhiteNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -497,7 +501,9 @@
 			baseConfigurationReference = 2B2413133396E2C451275613 /* Pods-WhiteNavigationController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3M5P376P9C;
 				INFOPLIST_FILE = WhiteNavigationController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -511,6 +517,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 709CC58F353851FC3990E3B4 /* Pods-WhiteNavigationController_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3M5P376P9C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -533,6 +540,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1B0C7A629B64861E46C0A3C /* Pods-WhiteNavigationController_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 3M5P376P9C;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

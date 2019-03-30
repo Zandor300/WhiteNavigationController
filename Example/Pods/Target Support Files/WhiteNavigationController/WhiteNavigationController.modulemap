@@ -1,0 +1,6 @@
+framework module WhiteNavigationController {
+  umbrella header "WhiteNavigationController-umbrella.h"
+
+  export *
+  module * { export * }
+}
