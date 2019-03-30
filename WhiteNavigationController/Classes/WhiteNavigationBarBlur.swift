@@ -41,7 +41,7 @@ public class WhiteNavigationBarBlur: UIVisualEffectView {
                     for subsubview in subview.subviews {
                         if subsubview.isMember(of: UILabel.self) {
                             let subviewName = String(describing: subview.self)
-                            if !subviewName.contains(find: "Large") {
+                            if !subviewName.contains("Large") {
                                 self.centerLabelSuperview = subsubview.superview
                             }
                         }
@@ -57,7 +57,7 @@ public class WhiteNavigationBarBlur: UIVisualEffectView {
 
             self.whiteView.frame = self.contentView.bounds
 
-            navigationBar.sendSubviewToBack(self)
+            navigationBar.sendSubview(toBack: self)
         }
     }
 
