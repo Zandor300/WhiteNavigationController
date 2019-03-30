@@ -57,7 +57,7 @@ public class WhiteNavigationBarBlur: UIVisualEffectView {
 
             self.whiteView.frame = self.contentView.bounds
 
-            navigationBar.sendSubview(toBack: self)
+            navigationBar.sendSubviewToBack(self)
         }
     }
 
