@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/cocoapods/v/WhiteNavigationController.svg?style=flat)](https://cocoapods.org/pods/WhiteNavigationController)
 [![License](https://img.shields.io/cocoapods/l/WhiteNavigationController.svg?style=flat)](https://git.zsinfo.nl/Zandor300/WhiteNavigationController/blob/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/WhiteNavigationController.svg?style=flat)](https://cocoapods.org/pods/WhiteNavigationController)
-![Swift Version](https://img.shields.io/badge/swift-5.0-orange.svg)
+[![Swift Version](https://img.shields.io/badge/swift-5.0-orange.svg)](https://git.zsinfo.nl/Zandor300/WhiteNavigationController)
 
 This pod will try to mimic the white navigation bars that Apple is adopting in their own apps.
 
