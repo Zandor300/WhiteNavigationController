@@ -70,7 +70,7 @@
 		E7F4772802A14ACB4C1318B8D77D9B3D /* Pods-WhiteNavigationController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WhiteNavigationController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		EE92AD09570F54C735F116D30A584D58 /* Pods-WhiteNavigationController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WhiteNavigationController_Tests-dummy.m"; sourceTree = "<group>"; };
 		FCC6104E225014320067825C /* WhiteNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhiteNavigationController.swift; path = WhiteNavigationController/Classes/WhiteNavigationController.swift; sourceTree = "<group>"; };
-		FCC61050225014650067825C /* WhiteNavigationBarBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhiteNavigationBarBlur.swift; sourceTree = "<group>"; };
+		FCC61050225014650067825C /* WhiteNavigationBarBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WhiteNavigationBarBlur.swift; path = WhiteNavigationController/Classes/WhiteNavigationBarBlur.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
