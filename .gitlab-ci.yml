@@ -21,7 +21,7 @@ build-pod:
     - cd Example/
     - pod install
     - cd ../
-    - set -o pipefail && xcodebuild build -enableCodeCoverage YES -workspace Example/WhiteNavigationController.xcworkspace -scheme WhiteNavigationController -sdk iphonesimulator12.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+    - set -o pipefail && xcodebuild build -workspace Example/WhiteNavigationController.xcworkspace -scheme WhiteNavigationController -sdk iphonesimulator12.2 ONLY_ACTIVE_ARCH=NO | xcpretty
   tags:
     - xcode
 
@@ -31,7 +31,7 @@ build-example:
     - cd Example/
     - pod install
     - cd ../
-    - set -o pipefail && xcodebuild build -enableCodeCoverage YES -workspace Example/WhiteNavigationController.xcworkspace -scheme WhiteNavigationController-Example -sdk iphonesimulator12.2 ONLY_ACTIVE_ARCH=NO | xcpretty
+    - set -o pipefail && xcodebuild build -workspace Example/WhiteNavigationController.xcworkspace -scheme WhiteNavigationController-Example -sdk iphonesimulator12.2 ONLY_ACTIVE_ARCH=NO | xcpretty
   tags:
     - xcode
 
