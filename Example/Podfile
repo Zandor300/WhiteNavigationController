@@ -4,11 +4,4 @@ target 'WhiteNavigationController_Example' do
   
   pod 'WhiteNavigationController', :path => '../'
 
-  target 'WhiteNavigationController_Tests' do
-    inherit! :search_paths
-
-    pod 'WhiteNavigationController', :path => '../'
-    
-  end
-
 end
