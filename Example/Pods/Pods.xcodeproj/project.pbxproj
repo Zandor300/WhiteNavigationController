@@ -13,21 +13,11 @@
 		90A3587B372205148EF8369E3675D8E1 /* Pods-WhiteNavigationController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 612A64E4BD43DB50AD5D76C4235AE01C /* Pods-WhiteNavigationController_Example-dummy.m */; };
 		914D99A0F2A822245F2B1494877806AB /* WhiteNavigationController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D94FD5CD03B9325E8554D589166215 /* WhiteNavigationController-dummy.m */; };
 		ACA99F55CAFAA01132AED514EDBB1436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BDBF187565884811E45B0AA48B856DC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BDDCF5BBE1B1A5EA225BFFF2CD71851F /* Pods-WhiteNavigationController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE92AD09570F54C735F116D30A584D58 /* Pods-WhiteNavigationController_Tests-dummy.m */; };
-		EBE94D582AAC51EFCA92C5F03BF58708 /* Pods-WhiteNavigationController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E65AF0A07E9FAC5A28048259E610D44 /* Pods-WhiteNavigationController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCC6104F225014320067825C /* WhiteNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC6104E225014320067825C /* WhiteNavigationController.swift */; };
 		FCC61051225014650067825C /* WhiteNavigationBarBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC61050225014650067825C /* WhiteNavigationBarBlur.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1AF30918B203EB85772C600D758EC38F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79358CE3B7DE077506A4A1207C4DD7DA;
-			remoteInfo = "Pods-WhiteNavigationController_Example";
-		};
 		9168B8D0EF7E5E1EA600203923DBE4E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -55,7 +45,6 @@
 		6FE7279A24A6A7D45CEF59827714D5DB /* Pods-WhiteNavigationController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WhiteNavigationController_Tests-Info.plist"; sourceTree = "<group>"; };
 		75FF280FE33827BECF089D01B072E93F /* Pods-WhiteNavigationController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WhiteNavigationController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		782639B2DE59975C24D6DD9408E16E99 /* WhiteNavigationController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WhiteNavigationController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8E61E8742FE823F7B00C23FD869AA58D /* Pods_WhiteNavigationController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteNavigationController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E65AF0A07E9FAC5A28048259E610D44 /* Pods-WhiteNavigationController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WhiteNavigationController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A1CB02C9318DBDA8C799B57ACE4371A8 /* WhiteNavigationController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WhiteNavigationController-Info.plist"; sourceTree = "<group>"; };
@@ -87,14 +76,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA99F55CAFAA01132AED514EDBB1436 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E100CA5884B146A595E9989816F58C90 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDBF187565884811E45B0AA48B856DC8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				C7FCE8D6DF583810555C5DE6860E2E16 /* Pods_WhiteNavigationController_Example.framework */,
-				8E61E8742FE823F7B00C23FD869AA58D /* Pods_WhiteNavigationController_Tests.framework */,
 				782639B2DE59975C24D6DD9408E16E99 /* WhiteNavigationController.framework */,
 			);
 			name = Products;
@@ -243,14 +223,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC9884C85025B02FD08CAD59AC68D5DD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBE94D582AAC51EFCA92C5F03BF58708 /* Pods-WhiteNavigationController_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -291,25 +263,6 @@
 			productReference = C7FCE8D6DF583810555C5DE6860E2E16 /* Pods_WhiteNavigationController_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		8CED1244BB9FF22C13A03BA2C062503D /* Pods-WhiteNavigationController_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 54DB108B90F385425129932592CAC2B1 /* Build configuration list for PBXNativeTarget "Pods-WhiteNavigationController_Tests" */;
-			buildPhases = (
-				CC9884C85025B02FD08CAD59AC68D5DD /* Headers */,
-				462EC6AEACDD088CAB288E8D0CAF5C6F /* Sources */,
-				E100CA5884B146A595E9989816F58C90 /* Frameworks */,
-				2B1BB6DC2304865AC2A022BC05D34FE3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5043BF093A862E027C3E12F4FFDECF94 /* PBXTargetDependency */,
-			);
-			name = "Pods-WhiteNavigationController_Tests";
-			productName = "Pods-WhiteNavigationController_Tests";
-			productReference = 8E61E8742FE823F7B00C23FD869AA58D /* Pods_WhiteNavigationController_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -338,7 +291,6 @@
 			projectRoot = "";
 			targets = (
 				79358CE3B7DE077506A4A1207C4DD7DA /* Pods-WhiteNavigationController_Example */,
-				8CED1244BB9FF22C13A03BA2C062503D /* Pods-WhiteNavigationController_Tests */,
 				42169E9C1D970AC690AEC40489070C97 /* WhiteNavigationController */,
 			);
 		};
@@ -346,13 +298,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		144435FD03C5B1E68BEEDC0476ECB392 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B1BB6DC2304865AC2A022BC05D34FE3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -377,14 +322,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		462EC6AEACDD088CAB288E8D0CAF5C6F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BDDCF5BBE1B1A5EA225BFFF2CD71851F /* Pods-WhiteNavigationController_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C18982375EC30ED582147D1DDDB53E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -398,12 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5043BF093A862E027C3E12F4FFDECF94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-WhiteNavigationController_Example";
-			target = 79358CE3B7DE077506A4A1207C4DD7DA /* Pods-WhiteNavigationController_Example */;
-			targetProxy = 1AF30918B203EB85772C600D758EC38F /* PBXContainerItemProxy */;
-		};
 		B783A7A868AD5A410A99F77E5D7F1506 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WhiteNavigationController;
@@ -413,73 +344,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C2021B4E5BF70B33FFDE7A8171D338B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA00B5FB8B4138655AE0A5601C056A6A /* Pods-WhiteNavigationController_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		5A38DD063012FC99856A22E9F088B706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FF280FE33827BECF089D01B072E93F /* Pods-WhiteNavigationController_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WhiteNavigationController_Tests/Pods-WhiteNavigationController_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		9CE713937E72C43B20F6043B5A7CEBE6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFFE5AC215B40977C020E9C2E9BFB40B /* WhiteNavigationController.xcconfig */;
@@ -754,15 +618,6 @@
 			buildConfigurations = (
 				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
 				F232B5ECA11A71BFA199A229B323F454 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		54DB108B90F385425129932592CAC2B1 /* Build configuration list for PBXNativeTarget "Pods-WhiteNavigationController_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1C2021B4E5BF70B33FFDE7A8171D338B /* Debug */,
-				5A38DD063012FC99856A22E9F088B706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
