@@ -1,3 +1,6 @@
+variables:
+  LANG: en_US.UTF-8
+
 stages:
   - setup
   - build
