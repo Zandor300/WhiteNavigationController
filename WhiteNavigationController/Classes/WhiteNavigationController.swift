@@ -18,27 +18,29 @@ open class WhiteNavigationController: UINavigationController {
     override open func viewDidLoad() {
         super.viewDidLoad()
 
-        self.barBlur = WhiteNavigationBarBlur(effect: UIBlurEffect(style: .light))
+        if #available(iOS 13, *) {} else {
+            self.barBlur = WhiteNavigationBarBlur(effect: UIBlurEffect(style: .light))
 
-        self.navigationBar.isTranslucent = true
-        self.navigationBar.setBackgroundImage(UIImage(), for: .default)
-        self.navigationBar.addSubview(self.barBlur!)
+            self.navigationBar.isTranslucent = true
+            self.navigationBar.setBackgroundImage(UIImage(), for: .default)
+            self.navigationBar.addSubview(self.barBlur!)
 
-        NotificationCenter.default.addObserver(self, selector: #selector(deviceOrientationDidChange), name: UIDevice.orientationDidChangeNotification, object: nil)
+            NotificationCenter.default.addObserver(self, selector: #selector(deviceOrientationDidChange), name: UIDevice.orientationDidChangeNotification, object: nil)
+        }
     }
 
     override open func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        self.barBlur?.layoutSubviews()
-    }
-
-    override open func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
+        if #available(iOS 13, *) {} else {
+            self.barBlur?.layoutSubviews()
+        }
     }
 
     @objc func deviceOrientationDidChange(_ notification: Notification) {
-        self.barBlur?.layoutSubviews()
+        if #available(iOS 13, *) {} else {
+            self.barBlur?.layoutSubviews()
+        }
     }
 
 }
