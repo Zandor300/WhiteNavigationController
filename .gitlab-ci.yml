@@ -2,22 +2,15 @@ variables:
   LANG: en_US.UTF-8
 
 stages:
-  - setup
   - build
   - lint
   - docs
   - deploy
 
-setup:
-  stage: setup
-  script:
-    - pod repo update
-  tags:
-    - xcode11
-
 build-pod:
   stage: build
   script:
+    - pod repo update
     - cd Example/
     - pod install
     - cd ../
@@ -28,6 +21,7 @@ build-pod:
 build-example:
   stage: build
   script:
+    - pod repo update
     - cd Example/
     - pod install
     - cd ../
