@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WhiteNavigationController'
-  s.version          = '1.0.0'
+  s.version          = '1.1.0'
   s.summary          = 'A White UINavigationBar like in Apple\'s apps'
 
 # This description is used to generate tags and improve search results.

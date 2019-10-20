@@ -7,15 +7,17 @@
 [![Platform](https://img.shields.io/cocoapods/p/WhiteNavigationController.svg?style=flat)](https://cocoapods.org/pods/WhiteNavigationController)
 [![Swift Version](https://img.shields.io/badge/swift-5.0-orange.svg)](https://git.zsinfo.nl/Zandor300/WhiteNavigationController)
 
-This pod will try to mimic the white navigation bars that Apple is adopting in their own apps.
+This pod will try to mimic the seamless navigation bars that have been added to iOS 13, for older versions of iOS.
 
 You could do the same thing by setting the `UINavigationBar` to white. That would however produce a less good looking blur when scrolling down. ([TestFlight](https://itunes.apple.com/us/app/testflight/id899247664) is a good example of this.) This pod will try to mimic the same thing but with a proper blur, like the stock `UINavigationBar` has.
 
-[![Example GIF](https://git.zsinfo.nl/Zandor300/WhiteNavigationController/raw/master/Example/example.gif)](https://git.zsinfo.nl/Zandor300/WhiteNavigationController/blob/master/Example/example.gif)
+**Example on iOS 12**
+
+[![Example GIF on iOS 12](https://git.zsinfo.nl/Zandor300/WhiteNavigationController/raw/master/Example/example.gif)](https://git.zsinfo.nl/Zandor300/WhiteNavigationController/blob/master/Example/example.gif)
 
 ## Example
 
-To run the example project, run `pod try WhiteNavigationController` in your Terminal.
+To run the example project, run `pod try WhiteNavigationController` in your Terminal. Try to run this on a device with iOS 12 or older since the pod won't do anything on iOS 13 or later.
 
 ## Installation
 
